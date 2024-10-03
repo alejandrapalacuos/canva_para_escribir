@@ -4,8 +4,8 @@ st.title('Dibujitos')
 # Add canvas component
 # Specify canvas parameters in application
 st.sidebar.drawing_mode = st.selectbox(
-    "select a mode", "freedraw",
-    ("circle", "rectangle"),
+    "select a mode",
+    ("freedraw","circle", "rectangle"),
 )
 st.sidebar.stroke_width = st.slider('Selecciona el ancho de línea', 1, 30, 15)
 st.sidebar.stroke_color = st.color_picker("Pick A Color", "#00f900", "000000", "ffffff")
