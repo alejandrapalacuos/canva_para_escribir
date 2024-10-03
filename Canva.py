@@ -4,7 +4,7 @@ st.title('Dibujitos')
 
 # Add canvas component
 # Specify canvas parameters in application
-st.sidebar.drawing_mode = st.selectbox(
+st.sidebar.text = drawing_mode = st.selectbox(
     "select a mode",
     ("freedraw","circle", "rectangle"),
 )
