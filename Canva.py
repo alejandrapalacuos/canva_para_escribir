@@ -20,6 +20,6 @@ canvas_result = st_canvas(
     height=200,
     width=200,
     key="canvas",
-
+)
   
   
